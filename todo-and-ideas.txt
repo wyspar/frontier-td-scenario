@@ -1,0 +1,66 @@
+TODO:
+owner of force should accept request, not instant join DONE
+handle players respawning DONE
+handle player leaving
+  make player the new owner when old leaves DONE
+  spits out loot when a player is gone for more than 5 minutes in your slot DONE
+handle player joining back, check if they have a force, check if they have a slot
+choose map, choose difficulty DONE
+handle clean up of map when losing/winning DONE
+  should say the difficulty and map when dying or winning DONE
+  need to reset research or reset force when reseting DONE
+need to kick the players out of the slot back to the public slot when game over 
+add a surrender button, everyone needs to vote 
+new map, silo in the center, biters start bottom right then go to middle, top half of map is for ores and building DONE
+2nd map can be all trees, toxic lol
+add decorations and shit to the map like rocks DONE
+added a shorter biter path for hard difficulty on map 1 DONE
+need to add the frontier menu gui DONE
+need to add dragger on teams gui DONE
+need to add the winning condition when all biters are dead
+map slots might need to be limited to reduce lag. maybe have 9 private ones. 1 public one DONE
+  maybe a 2nd public slot so both publics can fight
+make each force an enemy DONE
+stop players from shooting their own silo DONE
+need a way for players to visually see which slot is theirs --using a tag ONE 
+
+send a challenge to another team
+destroy the start button for each player involved in each force DONE
+  for isPvp = true DONE
+start button function needs to also create the slot for the isPvp team DONE
+handle clean up of map when losing/winning when two teams
+add a kick menu for the owner of force
+
+add mods for more biters models
+  flying biters
+make biters have resistances like 
+  fire, acid, poison
+
+add upgrades to turrets, like a menu maybe, ended up making a upgrade planner tool DONE
+add the 5 tiers of gun turret, with icons DONE
+add the 5 tiers of laser, with icons
+different damage types for towers
+different firing distances
+--beams, colors, upgrade colors lowest to highest should be
+T1  Gray
+T2  Green
+T3  Blue
+T4  Red
+T5  White
+UT could be black, purple, yellow
+gray is the shitter basic gun turret that can lead into other things DONE
+new science packs / receipes to match the tier colors
+biter like the heart balloon, medium spawns 1 small, maybe use spitters for this
+
+add a command for getting the current and next wave info
+
+TEST:
+need to test saving game and reload, do waves still work? DONE, yes waves still work
+test when using the request to join that you cannot bring shit over
+
+ISSUES:
+when two or more slots are in the checking for winner function, has to wait for each other to finish or die
+
+OTHER:
+to make something white
+black and white first then do brightness/contrast at brightness 62
